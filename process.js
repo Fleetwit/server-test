@@ -72,7 +72,7 @@ http.createServer(app).listen(app.get('port'), function(){
 
 app.get("/", function(req, res){
 	res.set("Content-Type", "application/json");
-	res.send(200, JSON.stringify({
+	res.status(200).send(JSON.stringify({
 		name:				"Scaling Test",
 		hostname:			os.hostname(),
 		type:				os.type(),
