@@ -1,0 +1,27 @@
+{
+	"name": 		"server-test",
+	"description": 	"Scaling test",
+	"version":		"1.0.0",
+	"dependencies": {
+		"underscore":			"latest",
+		"express":				"latest",
+		"request":				"latest",
+		"toolset":				"latest",
+		"mime":					"latest",
+		"less":					"latest",
+		"serve-favicon":		"latest",
+		"morgan":				"latest",
+		"cookie-parser":		"latest",
+		"body-parser":			"latest",
+		"method-override":		"latest",
+		"express-session":		"latest",
+		"errorhandler":			"latest",
+		"express-flash":		"latest",
+		"express-sessions":		"latest",
+		"serve-static":			"latest",
+		"compression":			"latest",
+		"connect-multiparty":	"latest",
+		"express-cookieauth":	"latest"
+	}
+}
+
