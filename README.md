@@ -12,8 +12,8 @@ Credentials to connect to AWS have been sent by email.
 
 - Setup a small machine, any unix or linux of your choice.
 - Install the dependencies required.
-- Clone and install the HTTP server.
-- Setup the HTTP server as a service.
+- Clone and install the HTTP server (port 80).
+- Setup the HTTP server as a service: It needs to start when the machine boots.
 - Scale up to have the HTTP server running on 3 machines.
 - Provide the URL of the load balancer
 
@@ -45,3 +45,9 @@ The HTTP server only serves one page: `/`.
 
 If you open the server's IP in the browser, you'll see a JSON response, exposing a few of the machine's properties: CPUs, type, platform, uptime...
 
+
+### Install video ###
+
+I installed the server on AWS this morning and made a video of the install process: [https://www.screenr.com/8IJN](https://www.screenr.com/8IJN)
+
+Note that on the video the http server is made to run on port 8080 because port 80 was already taken.
